@@ -1,6 +1,6 @@
 {
-  "name": "electron-react-boilerplate",
-  "productName": "ElectronReact",
+  "name": "pay-my-work",
+  "productName": "PayMyWork",
   "version": "0.14.0",
   "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
   "scripts": {
@@ -45,8 +45,8 @@
     ]
   },
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.develar.ElectronReact",
+    "productName": "PayMyWork",
+    "appId": "org.kovacsgezatamas.PayMyWork",
     "files": [
       "dist/",
       "node_modules/",
@@ -88,29 +88,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    "url": "git+https://github.com/kovacsgezatamas/pay-my-work.git"
   },
   "author": {
-    "name": "C. T. Lin",
-    "email": "chentsulin@gmail.com",
-    "url": "https://github.com/chentsulin"
+    "name": "Kovács Géza Tamás",
+    "url": "https://github.com/kovacsgezatamas"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    "url": "https://github.com/kovacsgezatamas/pay-my-work/issues"
   },
   "keywords": [
     "electron",
-    "boilerplate",
     "react",
     "redux",
     "flow",
-    "sass",
     "webpack",
-    "hot",
-    "reload"
+    "pay my work",
+    "jira",
+    "youtrack",
+    "agile",
+    "scrum",
+    "integration"
   ],
-  "homepage": "https://github.com/chentsulin/electron-react-boilerplate#readme",
   "jest": {
     "testURL": "http://localhost/",
     "moduleNameMapper": {
@@ -207,24 +207,24 @@
     "yarn": "^1.9.2"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.2.0",
-    "devtron": "^1.4.0",
-    "electron-debug": "^2.0.0",
-    "history": "^4.7.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-hot-loader": "^4.3.4",
-    "react-redux": "^5.0.7",
-    "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1",
-    "react-router-redux": "^5.0.0-alpha.6",
-    "redux": "^4.0.0",
-    "redux-thunk": "^2.3.0",
-    "source-map-support": "^0.5.6"
+    "@fortawesome/fontawesome-free": "5.2.0",
+    "devtron": "1.4.0",
+    "electron-debug": "2.0.0",
+    "history": "4.7.2",
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "react-hot-loader": "4.3.4",
+    "react-redux": "5.0.7",
+    "react-router": "4.3.1",
+    "react-router-dom": "4.3.1",
+    "react-router-redux": "4.0.8",
+    "redux": "4.0.0",
+    "redux-thunk": "2.3.0",
+    "source-map-support": "0.5.8"
   },
   "devEngines": {
-    "node": ">=7.x",
-    "npm": ">=4.x",
-    "yarn": ">=0.21.3"
+    "node": ">=8.11.4",
+    "npm": ">=5.6.0",
+    "yarn": ">=1.9.4"
   }
 }
